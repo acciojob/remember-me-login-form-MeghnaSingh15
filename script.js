@@ -20,9 +20,6 @@ sub_btn.addEventListener("click", (event) => {
 });
 
 let ex_user = document.getElementById("existing");
-let savedUsername = localStorage.getItem("username");
-if (savedUsername) {
-    ex_user.style.display = 'block';
 if (ex_user) {
     ex_user.addEventListener("click", () => {
         let savedUsername = localStorage.getItem("username");
